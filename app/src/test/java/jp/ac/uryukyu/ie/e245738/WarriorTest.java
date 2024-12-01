@@ -14,7 +14,7 @@ class WarriorTest {
 
         
         for (int i = 0; i < 3; i++) {
-            enemy.hitPoint = defaultEnemyHp;
+            enemy.setHitPoint(defaultEnemyHp);
             warrior.attackWithWeponSkill(enemy);
             assertEquals(150, defaultEnemyHp - enemy.getHitPoint());
             

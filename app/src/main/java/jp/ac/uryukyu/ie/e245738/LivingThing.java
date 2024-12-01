@@ -2,7 +2,7 @@ package jp.ac.uryukyu.ie.e245738;
 
 public class LivingThing {
     private String name;
-    int hitPoint;
+    private int hitPoint;
     private int attack;
     private boolean dead;
 
